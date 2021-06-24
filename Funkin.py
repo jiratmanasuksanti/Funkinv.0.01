@@ -13,6 +13,7 @@ bopeebo_voices = pygame.mixer.music.load("assets/music/Bopeebo_Voices.ogg")
 exitbutton_image = pygame.image.load("assets/images/exit_button.png")
 pressed_exitbutton_image = pygame.image.load("assets/images/pressed_exit_button.png")
 menu_music = pygame.mixer.music.load("assets/music/freakyMenu.ogg")
+confirmMenu_sounds = pygame.mixer.Sound("assets/sounds/confirmMenu.ogg")
 ################Main Game Loop#################
 def BacktoMenu():
   if menu_music_play == False:
