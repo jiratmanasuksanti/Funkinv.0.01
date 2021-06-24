@@ -20,7 +20,8 @@ maximumMenu = 1
 minimumMenu = 1
 ################Main Game Loop#################
 def create_button(self):
-  screen.blit(exitbutton_image,(Width/2,Height/2))
+  if self == "exit"
+    screen.blit(exitbutton_image,(Width/2,Height/2))
 def confirmMenu():
   confirmMenu_sounds.play()
 def BacktoMenu():
